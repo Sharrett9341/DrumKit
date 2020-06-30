@@ -1,52 +1,65 @@
-body {
+html, body, p{
+  height: 100%;
   margin: 0;
   padding: 0;
-  height: 100%;
-  text-align: center;
+  background-color: #000000;
 }
+
+body {
+  text-align: center;
+  
+}
+
 
 #Main-Wrapper {
   min-height: 100%;
   position: relative;
-  margin-bottom: 100px;
+  /*margin-bottom: -50px;*/
+  background-color: #000000;
 }
-.drumContainer {
+.Drum-Container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#drumMachineBG {
+#drum-MachineBG {
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
   top: 300px;
-  z-index: -1;
+  /*z-index: -1;*/
+  
 }
 
-img .drumMachineBG {
+/*img .drum-MachineBG {
   width: 800px;
   height: 800px;
-}
+    text-shadow: 5px 9px 30px #fff300;
+}*/
 
 h1 {
   font-size: 8rem;
   color: #dbedf3;
   font-family: "Monoton", cursive;
-  text-shadow: 5px 9px 30px#55218b;
+  text-shadow: 5px 9px 30px #fff300;
 }
-
+.CS{
+  font-size: 1rem;
+  color: #dbedf3;
+  font-family: "Lobster", cursive;
+  line-height: 1.5;
+  margin-top: 1em;
+  padding:0 ;
+ 
+}
 span {
   font-size: 10rem;
   font-family: "Lobster", cursive;
   line-height: 1.5;
 }
 
-footer {
-  color: #dbedf3;
-  font-family: sans-serif;
-}
 
 .w {
   background-image: url("images/tom1.png");
@@ -105,11 +118,11 @@ footer {
 }
 
 .m{
-  w
+  
 }
 
 .set-container {
-  top: 90px;
+  top: 70px;
   right: 140px;
   position: relative;
 }
@@ -123,19 +136,13 @@ footer {
   left: 57px;
 }
 
-.game-over {
-  background-color: #fdbe00;
-  opacity: 0.8;
-}
+
 
 .pressed {
   box-shadow: 0 3px 4px 0 #dbedf3;
   opacity: 0.5;
 }
 
-.red {
-  color: #fdbe00;
-}
 
 .drum {
   outline: none;
@@ -154,15 +161,13 @@ footer {
   margin: 7px;
   background-color: white;
 }
+/*Shapes*/
+
+
 
 footer {
-  margin-top: 200px;
-  bottom: 0;
-  left: 0;
-  position: fixed;
-  text-align: center;
-  width: 100%;
-  z-index: -1;
-  width: 100%;
-  background-color: aqua;
+  color: #fff;
+  height: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(0, 0, 0);
 }
