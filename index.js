@@ -21,48 +21,49 @@ document.addEventListener("keypress", function () {
 function makeSound(key) {
   switch (key) {
     case "w":
-      var tom1 = new Audio("sounds/tom-1.mp3");
-      tom1.play();
+      var synth1 = new Audio("sounds/synth-1.mp3");
+      synth1.play();
       break;
 
     case "a":
-      var tom2 = new Audio("sounds/tom-2.mp3");
-      tom2.play();
+      var synth2 = new Audio("sounds/synth-2.mp3");
+      synth2.play();
       break;
 
     case "s":
-      var tom3 = new Audio("sounds/tom-3.mp3");
-      tom3.play();
+      var synth3 = new Audio("sounds/synth-3.mp3");
+      synth3.play();
       break;
 
     case "d":
-      var tom4 = new Audio("sounds/tom-4.mp3");
-      tom4.play();
+      var synth4 = new Audio("sounds/synth-4.mp3");
+      synth4.play();
+      break;
+
+    case "c":
+      var kick = new Audio("sounds/kick-1.mp3");
+      kick.play();
       break;
 
     case "j":
-      var snare = new Audio("sounds/snare.mp3");
+      var snare = new Audio("sounds/snare-1.mp3");
       snare.play();
       break;
 
     case "k":
-      var crash = new Audio("sounds/crash.mp3");
-      crash.play();
+      var rimshot1 = new Audio("sounds/rimshot-1.mp3");
+      rimshot1.play();
       break;
 
     case "l":
-      var kick = new Audio("sounds/kick-bass.mp3");
-      kick.play();
+      var highHat2 = new Audio("sounds/high-hat-2.mp3");
+      highHat2.play();
       break;
 
-    case "c":
-      var kick = new Audio("sounds/kick-bass.mp3");
-      kick.play();
-      break;
-
-    case "e":
-      var kick = new Audio("sounds/kick-bass.mp3");
-      kick.play();
+   
+      case "e":
+      var clap1 = new Audio("sounds/clap-1.mp3");
+      clap1.play();
       break;
 
     case "r":
@@ -71,33 +72,34 @@ function makeSound(key) {
       break;
 
     case "t":
-      var kick = new Audio("sounds/kick-bass.mp3");
-      kick.play();
+      var openHat= new Audio("sounds/open-hat.mp3");
+      openHat.play();
       break;
 
     case "y":
-      var kick = new Audio("sounds/kick-bass.mp3");
-      kick.play();
+      var tom = new Audio("sounds/tom-1.mp3");
+      tom.play();
       break;
 
     case "v":
-      var kick = new Audio("sounds/kick-bass.mp3");
-      kick.play();
+      var bass = new Audio("sounds/bass.mp3");
+      bass.play();
       break;
 
     case "b":
-      var kick = new Audio("sounds/kick-bass.mp3");
-      kick.play();
+      var synth5 = new Audio("sounds/synth-5.mp3");
+      synth5.play();
       break;
       
+
     case "n":
-      var kick = new Audio("sounds/kick-bass.mp3");
-      kick.play();
+      var ride1 = new Audio("sounds/ride-1.mp3");
+      ride1.play();
       break;
 
     case "m":
-      var kick = new Audio("sounds/kick-bass.mp3");
-      kick.play();
+      var ride2 = new Audio("sounds/ride-2.mp3");
+      ride2.play();
       break;
           
           
